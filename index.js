@@ -56,6 +56,7 @@ questions([
         name: 'email',
     }
 ])
+// console log properly logs data into an array in terminal
     .then((data) => {
         console.log(data);
     });
