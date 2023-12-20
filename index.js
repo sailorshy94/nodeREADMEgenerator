@@ -2,10 +2,9 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 
-// TODO: Create an array of questions for user input
-// 
+// questions var assigned to createPromptModule method attached to inquirer var
 const questions = inquirer.createPromptModule();
-
+// questions to output info for README sections
 questions([
     {
         type: 'input',
