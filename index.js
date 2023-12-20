@@ -1,6 +1,8 @@
 // added fs so can interact w/ file sys to create file w/ README data
 const fs = require('fs');
 const inquirer = require('inquirer');
+// added a const variable for markdown file with require() to return obj
+const markdown = require('./utils/generateMarkdown');
 
 // questions var assigned to createPromptModule method attached to inquirer var
 const questions = inquirer.createPromptModule();
@@ -56,14 +58,53 @@ questions([
         name: 'email',
     }
 ])
-// console log properly logs data into an array in terminal
+    // console log properly logs data into an array in terminal
     .then((data) => {
         console.log(data);
+        console.log(readme);
+        // variable will hold template for README
+        const readme = `# ${data.title}
+
+        ## Description
+        ${data.description}
+      
+        ## Table of Contents
+        [Installation](#installation)
+        [Useage](#useage)
+        [License](#license)
+        [Contributing](#contributing)
+        [Tests](#tests)
+        [Questions](#Questions)
+      
+        ## Installation
+        ${data.installation}
+      
+        ## Useage
+        ${data.useage}
+      
+        ## License
+        ${data.license}
+      
+        ## Contributing
+        ${data.contributing}
+      
+        ## Tests
+        ${data.tests}
+      
+        ## Questions
+        Please contact me at:
+        GitHub: ${data.github}
+        my email: ${data.email} 
+    `
     });
-return;
+    
+// return;
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) { }
+function writeToFile(fileName, data) {
+    // console.log(README);
+    return;
+}
 
 // TODO: Create a function to initialize app
 function init() { }
