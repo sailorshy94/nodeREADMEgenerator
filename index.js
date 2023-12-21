@@ -71,15 +71,14 @@ function writeToFile(fileName, data) {
     // if statement creates a new folder for output
     if (!fs.existsSync('./mdoutput')) {
         fs.mkdirSync('./mdoutput');
-    }
-    // after finish testing replace something.txt with README.md
-    // something.txt inserted to test if code working
-    fs.writeFile('README.md', md, err => {
+    };
+    // writes a readme file and places inside of the mdoutput directory
+    fs.writeFile('./mdoutput/README.md', md, err => {
         if (err) {
             console.error(err);
         }
-    })
-    };
+    });
+};
 
 // TODO: Create a function to initialize app
 function init() { }
