@@ -72,7 +72,7 @@ function writeToFile(fileName, data) {
     if (!fs.existsSync('./mdoutput')) {
         fs.mkdirSync('./mdoutput');
     };
-    // writes a readme file and places inside of the mdoutput directory
+    // writes a readme file and places inside of the mdoutput folder
     fs.writeFile('./mdoutput/README.md', md, err => {
         if (err) {
             console.error(err);
