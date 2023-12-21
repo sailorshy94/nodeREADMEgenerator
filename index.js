@@ -67,13 +67,19 @@ questions([
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile('./utils/generateMarkdown', questions, err => {
+    const md = generateMarkdown(data);
+    // if statement creates a new folder for output
+    if (!fs.existsSync('./mdoutput')) {
+        fs.mkdirSync('./mdoutput');
+    }
+    // after finish testing replace something.txt with README.md
+    // something.txt inserted to test if code working
+    fs.writeFile('README.md', md, err => {
         if (err) {
             console.error(err);
         }
     })
     };
-
 
 // TODO: Create a function to initialize app
 function init() { }
