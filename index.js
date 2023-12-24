@@ -1,7 +1,7 @@
 // added fs so can interact w/ file sys to create file w/ README data
 const fs = require('fs');
 const inquirer = require('inquirer');
-// added a const variable for markdown file with require() to return obj
+// added a const variable for markdown file with require() to import generateMarkdown function
 const generateMarkdown = require('./utils/generateMarkdown');
 
 
@@ -40,14 +40,16 @@ questions([
         message: 'Please include any tests written for your project and provide examples on how to run them',
         name: 'tests',
     },
-    // license badge goes @ top of README, notice added to License section of README that explains
     {
-        type: 'checkbox',
+        type: 'rawlist',
         message: 'Please select a license for your project (if applicable)',
-        choices: ['A', 'B', 'C'],
+        choices: [
+            'Apache 2.0', 
+            'MIT', 
+            'None',
+        ],
         name: 'license',
     },
-    // GitHub and email go into the Questions section
     {
         type: 'input',
         message: 'Please enter your GitHub username',
@@ -81,7 +83,9 @@ function writeToFile(fileName, data) {
 };
 
 // TODO: Create a function to initialize app
-function init() { }
+function init() {
+    // console.clear();
+};
 
 // Function call to initialize app
 init();
