@@ -1,8 +1,8 @@
-# N/A  
+# lollol  
   
 
   ## Description
-  N/A
+  lollol
 
   ## Table of Contents
   - [Installation](#installation)
@@ -13,21 +13,22 @@
   - [Questions](#Questions)
 
   ## Installation
-  N/A
+  lollol
 
   ## Useage
-  N/
+  lollol
 
   ## License
-  Apache 2.0
+  MIT
 
   ## Contributing
-  N/A
+  My email address:  
+
+  lollol
 
   ## Tests
-  N/
+  lollol
 
   ## Questions
   Please contact me at:  
-  My GitHub Profile: https://github.com/N/A  
-  My email address: N/A 
+  My GitHub Profile: https://github.com/  
