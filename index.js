@@ -3,6 +3,7 @@ const fs = require('fs');
 const inquirer = require('inquirer');
 // added a const variable for markdown file with require() to import generateMarkdown function
 const generateMarkdown = require('./utils/generateMarkdown');
+const renderLicenseBadge = require('./utils/generateMarkdown');
 
 
 // questions var assigned to createPromptModule method attached to inquirer var
@@ -63,6 +64,10 @@ questions([
     // console log properly logs data into an array in terminal
     .then((data) => {
         console.log(data);
+        // console.log(data.license);
+        renderLicenseBadge(data.license);
+        // renderLicenseLink(licenseSelection);
+        // renderLicenseSection(licenseSelection);
         // function creates md-output directory and README file within; passes user data from terminal
         writeToFile('README.md', data);
     });
