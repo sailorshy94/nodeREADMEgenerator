@@ -18,9 +18,10 @@ function renderLicenseLink(license) {}
 // no license = '';
 function renderLicenseSection(license) {}
 
-// TODO: Create a function to generate markdown for README
+
 // license section will include data from functions above
 function generateMarkdown(data) {
+  // ${data.license} badge will go beside title
   return `# ${data.title} 
 
   ## Description
@@ -50,9 +51,9 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ## Questions
-  Please contact me at:
-  GitHub: ${data.github}
-  my email: ${data.email} 
+  Please contact me at:  
+  My GitHub Profile: https://github.com/${data.github}  
+  My email address: ${data.email} 
 `;
 }
 // allows generateMarkdown function to be exported to index.js file
