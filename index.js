@@ -24,7 +24,6 @@ questions([
         message: 'Please provide step-by-step instructions on how to install your project',
         name: 'installation',
     },
-    // not sure where exactly/how exactly, table of contents will come into play here??
     {
         type: 'input',
         message: 'How to use your project? (Give examples/instructions of use)',
@@ -84,6 +83,7 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
+    // does it need to include something to clear the terminal?
     // console.clear();
 };
 
