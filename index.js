@@ -63,6 +63,7 @@ questions([
     // console log properly logs data into an array in terminal
     .then((data) => {
         console.log(data);
+        // function creates md-output directory and README file within; passes user data from terminal
         writeToFile('README.md', data);
     });
 
@@ -70,11 +71,11 @@ questions([
 function writeToFile(fileName, data) {
     const md = generateMarkdown(data);
     // if statement creates a new folder for output
-    if (!fs.existsSync('./mdoutput')) {
-        fs.mkdirSync('./mdoutput');
+    if (!fs.existsSync('./md-output')) {
+        fs.mkdirSync('./md-output');
     };
     // writes a readme file and places inside of the mdoutput folder
-    fs.writeFile('./mdoutput/README.md', md, err => {
+    fs.writeFile('./md-output/README.md', md, err => {
         if (err) {
             console.error(err);
         }
