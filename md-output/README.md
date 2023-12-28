@@ -1,8 +1,8 @@
-# lollol  
+# N  
   
 
   ## Description
-  lollol
+  N
 
   ## Table of Contents
   - [Installation](#installation)
@@ -13,22 +13,21 @@
   - [Questions](#Questions)
 
   ## Installation
-  lollol
+  N
 
   ## Useage
-  lollol
+  N
 
   ## License
   MIT
 
   ## Contributing
-  My email address:  
-
-  lollol
+  N
 
   ## Tests
-  lollol
+  N
 
   ## Questions
   Please contact me at:  
-  My GitHub Profile: https://github.com/  
+  My GitHub Profile: https://github.com/N  
+  My email address: N 
