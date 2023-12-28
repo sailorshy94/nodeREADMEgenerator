@@ -19,7 +19,7 @@ function writeToFile(fileName, data) {
     });
 };
 
-// shifted prompt module into the init function
+// shifted prompt module into the init functio
 function init() {
     // questions var assigned to createPromptModule method attached to inquirer var
     const questions = inquirer.createPromptModule();
