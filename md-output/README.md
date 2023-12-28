@@ -1,8 +1,8 @@
-# lol  
-  <img src="https://img.shields.io/badge/license-Apache_2.0-green">
+# Lorem ipsum.  
+  ![Static Badge](https://img.shields.io/badge/License-Apache_2.0-green)
 
   ## Description
-  lol
+  Lorem ipsum dolor sit amet consectetur adipisicing elit.
 
   ## Table of Contents
   - [Installation](#installation)
@@ -13,22 +13,22 @@
   - [Questions](#Questions)
 
   ## Installation
-  lol
+  Lorem ipsum dolor sit amet consectetur adipisicing elit.
 
   ## Useage
-  lol
+  Lorem ipsum dolor sit amet consectetur adipisicing elit.
 
   ## License
-  Apache 2.0
+  This project is distributed under the Apache 2.0 license.
 
 
   ## Contributing
-  lol
+  Lorem ipsum dolor sit amet consectetur adipisicing elit.
 
   ## Tests
-  lol
+  Lorem ipsum dolor sit amet consectetur adipisicing elit.
 
   ## Questions
   Please contact me at:  
-  My GitHub Profile: https://github.com/lol  
-  My email address: lol 
+  My GitHub Profile: https://github.com/loremipsum  
+  My email address: loremipsum@lorem.com 

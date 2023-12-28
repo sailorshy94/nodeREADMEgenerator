@@ -1,17 +1,14 @@
-// Apache license = https://img.shields.io/badge/license-Apache_2.0-green
-// MIT license = https://img.shields.io/badge/license-MIT-yellow
-
-// should I create a const var for license that pulls from previous?
-// Object.entries(obj name).forEach(function[key, value]);
-// console.log(key + ': ' + value);
+const badges = "https://img.shields.io/badge/";
+const apacheBadge = "License-Apache_2.0-green";
+const mitBadge = "License-MIT-yellow";
 
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 // no license = '';
 // options: Apache 2.0, MIT, None
 function renderLicenseBadge(license) {
-  // if data.license === "Apache 2.0" then renderApache2.0Badge(https://img.shields.io/badge/license-Apache_2.0-green)
-  // if data.license === "MIT" then renderMITBadge(https://img.shields.io/badge/license-MIT-yellow)
+  // if data.license === "Apache 2.0" then badges + apacheBadge
+  // if data.license === "MIT" then badges + mitBadge
   // if data.license === "None" then ""
 }
 
@@ -34,7 +31,7 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   // ${data.license} badge will go in line under
   return `# ${data.title}  
-  <img src="https://img.shields.io/badge/license-Apache_2.0-green">
+  ![Static Badge](https://img.shields.io/badge/License-Apache_2.0-green)
 
   ## Description
   ${data.description}
@@ -54,7 +51,7 @@ function generateMarkdown(data) {
   ${data.useage}
 
   ## License
-  ${data.license}
+  This project is distributed under the ${data.license} license.
 
 
   ## Contributing

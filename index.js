@@ -60,6 +60,7 @@ function init() {
             message: 'Please select a license for your project (if applicable)',
             choices: [
                 'Apache 2.0',
+                'MIT',
                 'None',
             ],
             name: 'license',
