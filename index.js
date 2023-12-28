@@ -60,7 +60,6 @@ function init() {
             message: 'Please select a license for your project (if applicable)',
             choices: [
                 'Apache 2.0',
-                'MIT',
                 'None',
             ],
             name: 'license',
@@ -79,7 +78,6 @@ function init() {
         // console log properly logs data into an array in terminal
         .then((data) => {
             console.log(data);
-            // console.log(data.license);
             // function creates md-output directory and README file within; passes user data from terminal
             writeToFile('README.md', data);
         });

@@ -1,8 +1,8 @@
-# N  
-  
+# lol  
+  <img src="https://img.shields.io/badge/license-Apache_2.0-green">
 
   ## Description
-  N
+  lol
 
   ## Table of Contents
   - [Installation](#installation)
@@ -13,21 +13,22 @@
   - [Questions](#Questions)
 
   ## Installation
-  N
+  lol
 
   ## Useage
-  N
+  lol
 
   ## License
-  MIT
+  Apache 2.0
+
 
   ## Contributing
-  N
+  lol
 
   ## Tests
-  N
+  lol
 
   ## Questions
   Please contact me at:  
-  My GitHub Profile: https://github.com/N  
-  My email address: N 
+  My GitHub Profile: https://github.com/lol  
+  My email address: lol 

@@ -2,6 +2,8 @@
 // MIT license = https://img.shields.io/badge/license-MIT-yellow
 
 // should I create a const var for license that pulls from previous?
+// Object.entries(obj name).forEach(function[key, value]);
+// console.log(key + ': ' + value);
 
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
@@ -32,7 +34,7 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   // ${data.license} badge will go in line under
   return `# ${data.title}  
-  
+  <img src="https://img.shields.io/badge/license-Apache_2.0-green">
 
   ## Description
   ${data.description}
@@ -53,6 +55,7 @@ function generateMarkdown(data) {
 
   ## License
   ${data.license}
+
 
   ## Contributing
   ${data.contributing}
