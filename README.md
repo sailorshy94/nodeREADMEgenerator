@@ -5,10 +5,10 @@ The purpose of this assignment was to create an application that uses responses 
 
 ## Screenshots
 ![Image Link](./assets/images/nodeREADMEGen-start.png)
-![Image Link](./images/)
+![Image Link](./assets/images/nodeREADMEGen-end.png)
 
 ## Video Walkthrough
-[Video Link](./assets/video-walkthrough/)
+[Video Link](https://drive.google.com/file/d/1d-DBYe1IahjnMndj3B3d_Xtztw5TmFqf/view?usp=drive_link)
 
 ## Links
-[Github Repo Link]()  
+[Github Repo Link](https://github.com/sailorshy94/nodeREADMEgenerator)  
